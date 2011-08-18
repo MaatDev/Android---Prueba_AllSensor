@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Prueba de Sensores"
+    />
+    
+    <Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Listen"
+    android:onClick="start"    
+    />
+    
+    <Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Stop Listen"  
+    android:onClick="stop"  
+    />
+    
+    <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Aceleración"    
+    />
+    <TextView
+    android:id="@+id/tv_accelerometer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Giroscopio"    
+    />
+    <TextView
+    android:id="@+id/tv_gyroscope"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Luz"    
+    />
+    <TextView
+    android:id="@+id/tv_light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Campo Magnético"    
+    />
+    <TextView
+    android:id="@+id/tv_magnetic_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Orientación"    
+    />
+    <TextView
+    android:id="@+id/tv_orientation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Presón"    
+    />
+    <TextView
+    android:id="@+id/tv_pressure"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Proximidad"    
+    />
+    <TextView
+    android:id="@+id/tv_proximity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+     <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Temperatura"    
+    />
+    <TextView
+    android:id="@+id/tv_temperature"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="-"
+    />
+    
+</LinearLayout>
